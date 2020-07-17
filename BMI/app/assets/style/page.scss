@@ -1,0 +1,33 @@
+header {
+    .header__logo {
+        height: 48px;
+        margin-top: 40px;
+        margin-bottom: 24px;
+    }
+}
+h2{
+    margin-bottom: 64px;
+}
+.btn-constom-weight{
+    width: 150px;
+}
+li{
+    list-style: none;
+}
+.recordBox{
+    border: 1px solid $primary;
+    border-radius: 4px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: $primary;
+    .recordBox__title{
+        font-weight: bold;
+        font-size: 20px;
+        margin-bottom: 8px;
+    }
+    .recordBox__text:not(:last-child){
+        margin-bottom: -px;
+    }
+}
