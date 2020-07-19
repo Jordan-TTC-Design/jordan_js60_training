@@ -1,27 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <title>Boostrap Index</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" />
+        <link rel="stylesheet" href="./assets/style/all.css" />
+    </head>
 
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Boostrap Index</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" />
-    <link rel="stylesheet" href="./assets/style/all.css">
-  </head>
+    <body>
+        <header>
+            <div class="container">
+                <div>
+                    <h1>
+                        <a href="#"><img class="header__logo" src="./assets/images/logo_工作區域 1.png" alt="" /></a>
+                    </h1>
+                </div>
+            </div>
+        </header>
 
-  <body>
-    <header>
-      <div class="container">
-          <div>
-              <h1>
-                  <a href="#"><img class="header__logo" src="./assets/images/logo_工作區域 1.png" alt="" /></a>
-              </h1>
-          </div>
-      </div>
-    </header>
-
-    
+        
 <div>
     <h2 class="text-primary text-center">大 AI 數據之 BMI 體重計</h2>
 </div>
@@ -31,12 +30,7 @@
             <form>
                 <div class="form-group mb-4">
                     <label class="text-light" for="bmiHeightNum">身高 cm</label>
-                    <input
-                        type="text"
-                        class="form-control"
-                        id="bmiHeightNum"
-                        placeholder="請輸入身高"
-                    />
+                    <input type="text" class="form-control" id="bmiHeightNum" placeholder="請輸入身高" />
                 </div>
                 <div class="form-group mb-4">
                     <label class="text-light" for="bmiWeightNum">體重 kg</label>
@@ -44,7 +38,7 @@
                 </div>
                 <div class="d-flex flex-column align-items-center">
                     <button id="btnBmiSubmit" type="submit" class="btn-constom-weight btn btn-light mb-2">確認</button>
-                    <button id="btnBmiDelete"  class="btn-constom-weight btn btn-outline-light">
+                    <button id="btnBmiDelete" class="btn-constom-weight btn btn-outline-light">
                         全部清除
                     </button>
                 </div>
@@ -56,17 +50,14 @@
     <div class="row d-flex justify-content-center">
         <div class="col-6">
             <h3 class="text-center text-primary mb-3">BMI紀錄</h3>
-            <ul class="recordList">
-            </ul>
+            <p class="bmiAvarge"></p>
+            <ul class="recordList"></ul>
         </div>
     </div>
 </div>
 
 
-    
-
-    <script src="./assets/js/vendors.js"></script>
-    <script src="./assets/js/all.js"></script>
-  </body>
-
+        <script src="./assets/js/vendors.js"></script>
+        <script src="./assets/js/all.js"></script>
+    </body>
 </html>
